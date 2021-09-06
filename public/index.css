@@ -1,0 +1,75 @@
+
+
+
+
+#add-button{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 50px;
+    margin-right: 40px;
+    width: 60px;
+    height: 40px;
+    border-radius: 90px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.post{
+    display: inline;
+    padding-left: 10px;
+    color: rgb(8, 153, 138);
+    font-size: 20px;
+}
+
+.message{
+    padding-left: 10px;
+}
+
+#box{
+    border: 1px solid grey;
+    margin: auto;
+    width: 70%;
+    margin-bottom: 15px;
+    word-wrap: normal;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px -5px #333;
+}
+
+#name{
+   text-align: center;
+   font-size: 50px;
+   color: rgb(35, 35, 150);
+}
+
+
+#input-message{
+    margin-left: 20%;
+    position: relative;
+    width: 60%;
+    height: 90px;
+    font-size: 25px;
+}
+
+#input-name{
+    width: 20%;
+    height: 50px;
+    margin-left: 30%;
+    font-size: 20px;
+}
+
+#submit-button{
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(138, 215, 235);
+    margin: 5px;
+}
+
+#submit-button:hover{
+    background-color: lightcoral;
+    transition: 0.5s;
+}
